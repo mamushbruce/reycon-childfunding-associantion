@@ -1,0 +1,176 @@
+.session-title {
+  padding: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.session-title h2 {
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.session-title p {
+  max-width: 850px;
+  text-align: center;
+  float: none;
+  margin: auto;
+  text-transform: uppercase;
+}
+.session-title span {
+  float: right;
+  font-style: italic;
+}
+
+/* about-us section */
+
+.about-us {
+  padding: 50px;
+}
+@media screen and (max-width: 940px) {
+  .about-us {
+    padding: 30px 10px;
+  }
+}
+.about-us .diag-ro {
+  margin: 0px;
+  margin-top: 20px;
+}
+.about-us .diag-ro h4 {
+  margin-bottom: 20px;
+}
+.about-us .diag-ro .about-diag {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin: auto;
+}
+.about-us .diag-ro .about-diag .icon {
+  margin: auto;
+  padding: 15px 20px;
+}
+.about-us .diag-ro .about-diag .icon i {
+  font-size: 1.8rem;
+  color: #ccc;
+}
+.about-us .diag-ro .about-diag .tex {
+  flex-grow: 1;
+}
+.about-us .diag-ro .about-diag .tex h5 {
+  font-weight: 600;
+  color: #f78d15;
+}
+.about-us .diag-ro .about-diag .tex p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.about-us .abut-detail h4 {
+  margin-bottom: 20px;
+}
+.about-us .abut-detail p {
+  text-indent: 20px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+/* recent cause section  */
+
+.heading {
+  margin: 20px 0px;
+  text-align: left;
+  position: relative;
+  display: block;
+}
+.heading h2 {
+  font-size: 25px;
+  color: #222222;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+}
+
+.bg-02 .wrapper {
+  margin: 1.25rem 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.bg-02 .wrapper figure {
+  margin: 0;
+}
+.bg-02 .wrapper .bs {
+  padding: 1.25rem;
+  border: 1px dashed #ddd;
+  position: relative;
+  display: inline-block;
+}
+.bg-02 .wrapper .bs h3 {
+  font-size: 1.25rem;
+  color: #222222;
+  font-weight: 600;
+}
+.bg-02 .wrapper .bs p {
+  font-size: 0.9375rem;
+  color: #373738;
+  line-height: 1.5rem;
+  display: inline-block;
+  margin: 0.625rem 0;
+}
+.bg-02 .wrapper .bs ol li {
+  display: inline-block;
+  font-size: 0.8125rem;
+}
+.bg-02 .wrapper .bs ol li i {
+  margin: 0 0.625rem 0 0;
+  color: #fd580b;
+}
+
+/* services section  */
+
+.bg-03 {
+  position: relative;
+  padding: 3.125rem 0;
+  background: #fafafa;
+  overflow: hidden;
+}
+.bg-03 .wrapper {
+  position: relative;
+  display: block;
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+}
+.bg-03 .wrapper .content {
+  text-align: center;
+}
+.bg-03 .wrapper .content ol {
+  padding: 0;
+}
+.bg-03 .wrapper .content ol li {
+  display: block;
+}
+.bg-03 .wrapper .content ol li i {
+  font-size: 1.875rem;
+  color: #fd580b !important;
+  margin: 0.625rem 0;
+  display: block;
+}
+.bg-03 .wrapper .content ol li h3 {
+  font-size: 1.25rem;
+  color: #222222;
+  font-weight: 600;
+}
+.bg-03 .wrapper .content ol li p {
+  display: block;
+  margin: 0.625rem 0;
+  color: #373738;
+  font-size: 1rem;
+}
+/* body {
+  width: 100%;
+} */
+
+.sticking-header {
+  position: sticky;
+  top: 0%;
+}
